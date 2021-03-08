@@ -9,3 +9,8 @@ autobins = false
 
 [dependencies]
 gtk = "0.9.2"
+gio = "0.9.1"
+
+[[bin]]
+name = "basic"
+
