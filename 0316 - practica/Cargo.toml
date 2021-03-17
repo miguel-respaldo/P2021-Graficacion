@@ -1,9 +1,13 @@
 [package]
 name = "hola"
 version = "0.1.0"
-authors = ["Miguel Bernal Marin <miguel.bernal@zapopan.tecmm.edu.mx>"]
+authors = ["Clase de Graficación primavera 2021"]
 edition = "2018"
+autobins = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[[bin]]
+name = "hola"
