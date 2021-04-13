@@ -9,5 +9,5 @@ fn fibonacci(n: u32) -> u32 {
 
 
 fn main() {
-    println!("Fibonacci de 5 es {}", fibonacci(5));
+    println!("Fibonacci de 10 es {}", fibonacci(10));
 }
