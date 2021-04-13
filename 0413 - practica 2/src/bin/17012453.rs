@@ -1,4 +1,4 @@
-//Abraham Atzin Lomeli Grimaldo
+//Abraham Atzin Lomeli Grimaldo 17012453
 
 fn fibo(x: u32) -> u32 {
     match x {
@@ -8,6 +8,6 @@ fn fibo(x: u32) -> u32 {
     }
 }
 fn main() {
-    println!("Sequence {}", fibo(5));
+    println!("Sequence for 10 {}", fibo(10));
 }
 
