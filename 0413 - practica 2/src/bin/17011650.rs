@@ -1,20 +1,22 @@
 fn main() {
 
   //Ejercicio Fibonacci
-  
-    let x:i32 = 0, y:i32 = 0, z:i32 = 0, w:i32 = 1;
 
-    (int i=3;i<=x;i++)
-
-    for x in 3 0..10 {
-    
-      y=z+w;
-      z=w;
-      w=y;
-      
-      println!("{}",y); 
-      
+  fn fibonacci(n: u32) -> u32 {
+    match n {
+        0 => 1,
+        1 => 1,
+        _ => fibonacci(n - 1) + fibonacci(n - 2),
     }
+}
+
+fn main() {
+    println!("Fibonacci");
+    println!("{}", fibonacci(1));
+    println!("{}", fibonacci(3));
+    println!("{}", fibonacci(5));
+    println!("Soy Hugo Emmanuel Gonzalez Gomez");
+}
 
 }
 
