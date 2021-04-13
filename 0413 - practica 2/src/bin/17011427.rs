@@ -1,7 +1,5 @@
 use std::io;
 
-
-
 fn fibonacci(n: u32) -> u32 {
     match n {
         0 => 1,
