@@ -22,6 +22,7 @@ fn main() {
             Err(_) => continue,
         };
         println!("{}", fibonacci(n));
+        println!();
     }
 }
 
