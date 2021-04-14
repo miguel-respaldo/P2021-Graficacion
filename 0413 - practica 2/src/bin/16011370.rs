@@ -5,7 +5,9 @@ fn fibonacci(n: u32) -> u32 {
         _ => fibonacci(n - 1) + fibonacci(n - 2),
     }
 }
+
 // Luis Fernando Rubio Zambrano  fibonacci
+
 fn main() {
     println!("Fibonacci generator");
     println!("{}", fibonacci(1));
