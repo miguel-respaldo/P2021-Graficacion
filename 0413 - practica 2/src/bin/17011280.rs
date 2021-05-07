@@ -1,18 +1,12 @@
-fn main() {
-    println!("Hi! fb");
-
-    for num:u32 in 1..15 {
-        println!("fib({}) = {}", num, fib{n:num});
+fn fibonacci(n: u32) -> u32 {
+    match n {
+        0 => 1,
+        1 => 1,
+        _ => fibonacci(n-1) + fibonacci(n -2),
     }
-
 }
 
-fn fib (n:u32) -> u32 {
-    if n <= 0 {
-        return 0;
-    }else if n == 1 {
-        return 1;
-    }
 
-    fib(n:n-1) + fib(n:n-2)
+fn main() {
+    println!("Fibonacci de 10 es {}", fibonacci(10));
 }
