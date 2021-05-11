@@ -18,5 +18,4 @@
          let numero = numero * i;
          println!("El factorial es: {}", numero);
        }
-   
    }
