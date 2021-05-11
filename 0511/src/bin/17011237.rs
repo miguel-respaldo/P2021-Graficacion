@@ -7,10 +7,12 @@ fn main(){
     println!("Ingresa un numero: ");
     
     let mut x = String::new();
-    io::stdin().read_line(&mut x);
+    
+    //Marca un par de warnings pero es perfectamente funcional
+    io::stdin().read_line(&mut x); 
     
     let x = x.trim(); 
-    let x: u64 = x.parse().unwrap();
+    let x: u64 = x.parse().unwrap(); 
 
     println!("FACTORIAL DE {}! = {}",x,factorial(x));
 }
