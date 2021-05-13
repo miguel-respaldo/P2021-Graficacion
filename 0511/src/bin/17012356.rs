@@ -7,6 +7,6 @@ fn factorial(num: u128) -> u128 {
 }
 
 fn main() {
-    let x = factorial(30);
-    println!("El factorial es: {} ", x);
+    let x = factorial(21);
+    println!("El valor del factorial de 21 es:{} ", x);
 }
