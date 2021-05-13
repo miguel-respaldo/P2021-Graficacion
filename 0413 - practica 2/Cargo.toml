@@ -1,0 +1,90 @@
+[package]
+name = "practica2"
+version = "0.1.0"
+authors = ["Clase de Graficación primavera 2021"]
+edition = "2018"
+autobins = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "290"
+
+[[bin]]
+name = "16011369"
+
+[[bin]]
+name = "16011370"
+
+[[bin]]
+name = "17011210"
+
+[[bin]]
+name = "17011223"
+
+[[bin]]
+name = "17011227"
+
+[[bin]]
+name = "17011237"
+
+[[bin]]
+name = "17011264"
+
+[[bin]]
+name = "17011280"
+
+[[bin]]
+name = "17011427"
+
+[[bin]]
+name = "17011433"
+
+[[bin]]
+name = "17011434"
+
+[[bin]]
+name = "17011436"
+
+[[bin]]
+name = "17011438"
+
+[[bin]]
+name = "17011650"
+
+[[bin]]
+name = "17011701"
+
+[[bin]]
+name = "17012084"
+
+[[bin]]
+name = "17012129"
+
+[[bin]]
+name = "17012453"
+
+[[bin]]
+name = "18012170"
+
+[[bin]]
+name = "18012192"
+
+[[bin]]
+name = "18012195"
+
+[[bin]]
+name = "18012202"
+
+[[bin]]
+name = "18012382"
+
+[[bin]]
+name = "18012385"
+
+[[bin]]
+name = "20012811"
+
+
