@@ -5,8 +5,8 @@ fn factorial(num: u128) -> u128 {
         _ => factorial(num - 1) * num,
     }
 }
-
+//Codigo que da el factorial del numero puesto
 fn main() {
-    let x = factorial(30);
+    let x = factorial(10);//10
     println!("El factorial es: {} ", x);
 }
